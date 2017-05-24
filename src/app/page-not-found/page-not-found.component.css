@@ -30,3 +30,8 @@
     background: #1E88E5;
     color: #ffffff;
 }
+.notFoundHeader{
+    vertical-align: middle;
+    font-size: 36px;
+    margin-left: 20px;
+}
