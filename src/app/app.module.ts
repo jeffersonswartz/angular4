@@ -10,14 +10,16 @@ import { Routes, RouterModule }  from '@angular/router';
 
 import { appRouterModule } from './app.routes';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component'
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     PageNotFoundComponent,
-    NavBarComponent
+    NavBarComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
