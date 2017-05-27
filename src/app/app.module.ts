@@ -17,6 +17,8 @@ import { DashboardComponent } from './dashboard/dashboard.component'
 import {MdSidenavModule} from '@angular/material';
 import {MdToolbarModule} from '@angular/material';
 import {MdIconModule} from '@angular/material';
+import { ProfileComponent } from './profile/profile.component';
+import { HelpComponent } from './help/help.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import {MdIconModule} from '@angular/material';
     HeaderComponent,
     PageNotFoundComponent,
     NavBarComponent,
-    DashboardComponent
+    DashboardComponent,
+    ProfileComponent,
+    HelpComponent
   ],
   imports: [
     BrowserModule,

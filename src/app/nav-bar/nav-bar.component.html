@@ -1,7 +1,9 @@
 <md-sidenav-container class="fullheight">
   <md-sidenav class="navBar" #sidenav mode="side" opened="true">
-    New Component
+    <a [routerLink]="['/']"><i class="material-icons profile-icons">home</i></a>
+    <a [routerLink]="['/dashboard/profile']"><i class="material-icons profile-icons">child_care</i></a>
+    <a [routerLink]="['/dashboard/help']"><i class="material-icons profile-icons">help</i></a>
   </md-sidenav>
-
+<router-outlet></router-outlet>
  
 </md-sidenav-container>
