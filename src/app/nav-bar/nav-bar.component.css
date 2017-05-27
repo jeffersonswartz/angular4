@@ -1,5 +1,7 @@
 .navBar{
-    height: 40px;
-    width: 100%;
-    background: #0D47A1;
+    width: 15%;
+    background: #FF4081;
+}
+.fullheight{
+    height: 100vh;
 }

@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component, OnInit, EventEmitter, Output  } from '@angular/core';
+import {MdIconRegistry} from '@angular/material';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -11,5 +11,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit() {
   }
+
+
 
 }

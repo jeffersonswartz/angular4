@@ -13,6 +13,11 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { DashboardComponent } from './dashboard/dashboard.component'
 
+
+import {MdSidenavModule} from '@angular/material';
+import {MdToolbarModule} from '@angular/material';
+import {MdIconModule} from '@angular/material';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +30,9 @@ import { DashboardComponent } from './dashboard/dashboard.component'
     BrowserModule,
     FormsModule,
     HttpModule,
-    appRouterModule
+    appRouterModule,
+    MdSidenavModule,
+    MdToolbarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
