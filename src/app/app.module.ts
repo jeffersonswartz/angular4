@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -17,6 +18,10 @@ import { DashboardComponent } from './dashboard/dashboard.component'
 import {MdSidenavModule} from '@angular/material';
 import {MdToolbarModule} from '@angular/material';
 import {MdIconModule} from '@angular/material';
+import {MdTabsModule} from '@angular/material';
+import {MdCardModule} from '@angular/material';
+import {MdButtonModule} from '@angular/material';
+
 import { ProfileComponent } from './profile/profile.component';
 import { HelpComponent } from './help/help.component';
 
@@ -36,7 +41,11 @@ import { HelpComponent } from './help/help.component';
     HttpModule,
     appRouterModule,
     MdSidenavModule,
-    MdToolbarModule
+    MdToolbarModule,
+    MdTabsModule,
+    MdCardModule,
+    MdButtonModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
