@@ -1,0 +1,12 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "package.json",
+        "src/app/nav-bar/mdi/package.json",
+        "src/css/mdi/package.json",
+        "src/styles/MaterialDesign-Webfont-master/package.json"
+      ]
+    }
+  }
+}
